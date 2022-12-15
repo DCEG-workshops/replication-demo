@@ -1,0 +1,24 @@
+
+Call:
+glm(formula = status ~ parity + age, family = "binomial", data = bc_data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-0.3034  -0.2740  -0.2579  -0.2430   2.7212  
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)    
+(Intercept) -3.276249   0.266428 -12.297  < 2e-16 ***
+parity      -0.120810   0.030957  -3.902 9.52e-05 ***
+age          0.002564   0.004914   0.522    0.602    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 5834.6  on 19999  degrees of freedom
+Residual deviance: 5819.0  on 19997  degrees of freedom
+AIC: 5825
+
+Number of Fisher Scoring iterations: 6
+
